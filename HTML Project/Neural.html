@@ -1,0 +1,30 @@
+<html>
+<head></head>
+    
+<title>Neural Network</title>
+    <body>
+        <p>This is a very basic neural network, right now it detects a string of words to determine whether the phrase you have input was said by Trump or Kim Kardashian. The brain is super super super simple so it's not 100%, to get it better I either need to input a lot more phrases for it to analzye or create a crawler to go over their twitter accounts and analyze it If the crawler exists I could add on more twitter accounts and accidently create a brain, but uh, not now......?
+            <br>
+    <input type="text" id = "userInput"> </input><br><!--//Input box-->
+<button id = "theButton" onclick="changeText2()" >try it </button></p><br> <!--//button to take info from Input Box-->
+    
+<div>This tweet was probably done by <p id="tweetID"></p> </div><br><!--Display Area -->
+
+
+
+
+<script type="application/javascript" src='brain.js'></script>
+<script type="application/jqqavascript" src='training.js'></script>
+<script type="application/javascript" src ='script.js'></script>
+
+<script type="application/javascript">
+       function changeText2(){
+	var userInput = document.getElementById('userInput').value;
+	document.getElementById('tweetID').innerHTML = execute(userInput);
+           console.log(execute(userInput));
+}
+</script>
+
+
+</html>
+
