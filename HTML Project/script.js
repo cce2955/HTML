@@ -26,4 +26,8 @@ function execute(input) {
    results.trump > results.kardashian ? output = 'Trump' : output = 'Kardashian';
    return output;
 }
+var i;
+for (i = 0; i < 8; i++)
+    {
 train(trainingData);
+    }
