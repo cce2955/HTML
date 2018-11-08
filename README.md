@@ -9,4 +9,4 @@ B. A canvas project that iterates a tree. - WIP
 
 C. A neural network that determines which celebrity personality it comes from, the base library was provided from an outside source but has been modified by me and I have an understanding of what it entails.
 
-D. Me figuring out formatting how formatting works in markdown
+~~D. Me figuring out formatting how formatting works in markdown~~
